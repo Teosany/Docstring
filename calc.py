@@ -9,8 +9,8 @@ def get_number(prompt: str) -> Decimal:
 
 
 def calculate_sum() -> None:
-    first_number = get_number("Entrez un premier nombre: ")
-    second_number = get_number("Entrez un deuxième nombre: ")
+    first_number = get_number("Entrez un premier nombre : ")
+    second_number = get_number("Entrez un deuxième nombre : ")
 
     result = first_number + second_number
     print(f"Le résultat de l'addition de {first_number:g} avec {second_number:g} est égal à {result:g}")
